@@ -1,0 +1,18 @@
+body{background:#101d2b;color:#f4faff;font-family:"Libre Baskerville", sans-serif;font-weight:400}
+a{color:#3392D6}
+a:hover{color:#41a2e7;text-decoration:none}
+h1,h2,h3,h4,h5,button,.menu-left,.btn,.footer,.article-info{font-family: 'oswald', sans-serif;font-weight:100}
+
+.article-header{position:absolute;left:0;top:0;right:0;width:100%;height:480px;overflow:hidden}
+.article-image{background:#f00}
+.article-image img{position:absolute;width:100%;z-index:-1;top:0px;}
+
+.article-title{position:relative;z-index:10;height:480px;}
+.article-title h1{position:absolute;bottom:15px;color:#fff;font-size:92pt;font-weight:bold;text-transform:uppercase;margin:0;padding:0;z-index:10}
+
+.article-info{margin-top:495px;border-bottom:1px solid #fff;margin-bottom:35px}
+.article-info-list{overflow:hidden}
+.article-info-list dd{float:left;font-size:16pt;text-transform:uppercase}
+.article-info-list dd:not(:last-child):after{content:"\2022";font-size:16pt;position:relative;margin:0 10px}
+
+.article p{line-height:32pt;font-size:16pt;margin-bottom:32pt} 

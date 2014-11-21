@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template" method="upgrade">
+	<name>thatlean</name>
+	<creationDate>Spring 2014</creationDate>
+	<author>Justin Renaud</author>
+	<authorEmail>tghidsgn@gmail.command</authorEmail>
+	<authorUrl>tghidsgn.com</authorUrl>
+	<copyright>Copyright (C) 2014 Justin Renaud. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<version>0.1</version>
+	<description>TPL_THATLEAN_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>offline.php</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>navigation</position>
+		<position>search</position>
+		<position>component</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_thatlean.ini</language>
+	</languages>
+	
+</extension>
